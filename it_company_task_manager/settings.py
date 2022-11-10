@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     "task_manager"
 ]
 
+AUTH_USER_MODEL = "task_manager.Worker"
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
